@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background: url('assets/edificio-oficinas-moderno-vista-angulo-rascacielos-ciudad-singapur-edificio-oficinas-moderno-vista-angulo-rascacielos-ciudad-singapur.jpg') center/cover no-repeat fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg-image {
+    opacity: 0.5;
+    background-image: cover;
+    background-position: center;
+    color: #002664;
+    z-index: -1;
+    width: 102%;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+.bg-overlay::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(232,230,223,0.4); /* Adjust the opacity (last value) as needed */
+    z-index: -2;
+    
+  }
+
+.logo {
+
+    height: 180px;
+    margin-right: 80px;
+}  
+
+
+.card {
+    margin-top: -40px;
+    background-color: rgba(232,230,223,0.7);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    height: 560px;
+    width: 820px;
+    text-align:center;
+  }
+
+.row.mb-5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#env-form {
+    margin-top: 70px;
+    background-color: rgba(0,38,100,0.8);
+    color: #E8E6DF ;
+}
